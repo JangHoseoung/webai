@@ -19,7 +19,7 @@ class MyApp(QWidget):
 
         btn1.clicked.connect(self.doA)
         btn2.clicked.connect(self.doB)
-        btn3.clicked.connect(self,doC)
+        btn3.clicked.connect(self.doC)
 
         vbox = QVBoxLayout()
         vbox.addWidget(self.te)
