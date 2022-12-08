@@ -1,0 +1,9 @@
+git config --global user.email argenhart123@gmail.com
+git config --global user.name JangHoseoung
+
+#모든 파일 업로드
+git add .
+#메시지 남길꺼다
+giit commit -m "메시지"
+#서버에 올려라
+git push origin main
