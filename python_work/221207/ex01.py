@@ -7,7 +7,7 @@ print(len(st))
 kor=50, 
 eng=75
 math=55
-result = '(%d+%d+%d)/3 = %d'%(kor,eng,math,(kor+eng+math)/3)
+result ='(%d+%d+%d)/3 = %d'%(kor,eng,math,(kor+eng+math)/3)
 "print('평균점수' = (kor+eng+math) /3)"
 print(result)
 
