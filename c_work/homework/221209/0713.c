@@ -5,8 +5,11 @@ int main(){
     int num = 1;
     printf("정수를 입력 하시오 : ");
     scanf("%d", num);
-    while(){
+    while(num!=0){
+        printf("정수입력(0은 끝) : ");
         
-        i++;}
+        total+=num; 
+    }
+    printf("입력된 정수의 총합 = %d\n", total);
 return 0;
 }
