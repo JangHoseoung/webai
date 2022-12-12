@@ -1,6 +1,6 @@
 import sys
 from PyQt5.QtWidgets \
-import QApplication, QWidget , QVBoxLayout, QPushButton, QTextEdit, QLineEdit
+import QApplication, QWidget , QVBoxLayout, QPushButton, QTextEdit, QLineEdit, QMessageBox
 
 
 class MyApp(QWidget):
@@ -30,7 +30,19 @@ class MyApp(QWidget):
     def guguEvent(self):
         gugudan = self.lineedit.text()
         print(gugudan.isdigit()) #숫자면 true 아니면 false isdigit
-        self.textedit.setText(gugudan)
+        if gugudan.isdigit() == False:
+            QMessageBox.warning(self,"경고","숫자 입력하세요.")
+        '''
+             gugudan ==2
+             2*1 = 2
+             2*2 = 4
+             msg = 
+        '''
+        msg = ""
+        for i in range(9,0,-1):
+                msg = msg + f"{gugudan} * {i} = {int(gugudan)*i}\n"
+        
+        self.textedit.setText(msg)
         # print(self.textedit.toPlainText())
 
 
