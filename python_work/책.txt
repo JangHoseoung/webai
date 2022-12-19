@@ -1,3 +1,4 @@
 https://wikidocs.net/4307
 https://wikidocs.net/book/2165 pyqt5 나만의 gui 프로그램
 https://wikidocs.net/35479 qt design
+https://github.com/goodjwon/rpa_example/blob/main/1_excel/2_sheet.py 파이썬으로 엑셀만들기
