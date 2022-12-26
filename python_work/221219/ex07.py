@@ -9,6 +9,12 @@ class WindowClass(QMainWindow, form_class) :
         super().__init__()
         self.setupUi(self)
 
+        self.e1.setText("asdfasdf")
+        self.p1.clicked.connect(self.doA)
+
+    def doA(self):
+        print("Test")
+
 
 if __name__ == "__main__" :
     app = QApplication(sys.argv) 

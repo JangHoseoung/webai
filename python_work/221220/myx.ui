@@ -40,14 +40,14 @@
      <item row="3" column="3">
       <widget class="QPushButton" name="p2">
        <property name="text">
-        <string>엑셀 파일 업로딩</string>
+        <string>엑셀 파일 생성</string>
        </property>
       </widget>
      </item>
      <item row="7" column="3">
       <widget class="QPushButton" name="p3">
        <property name="text">
-        <string>엑셀 파일 저장</string>
+        <string>엑셀 파일 업로딩</string>
        </property>
       </widget>
      </item>
@@ -63,7 +63,7 @@
        <item>
         <widget class="QPushButton" name="p1">
          <property name="text">
-          <string>엑셀 파일 생성</string>
+          <string>엑셀 파일 저장</string>
          </property>
         </widget>
        </item>
